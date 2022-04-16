@@ -1,9 +1,5 @@
 /*-----------------------------------------
-// NAME: Ryan Campbell
-// STUDENT NUMBER: 7874398
-// COURSE: COMP 3430, SECTION: A01
-// INSTRUCTOR: Franklin Bristow
-// ASSIGNMENT: assignment #3
+// Author: Ryan Campbell
 //
 // REMARKS: A simulation of OS scheduling.
 // There are two scheduling policies implemented;
