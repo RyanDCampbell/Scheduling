@@ -1,10 +1,6 @@
 
 /*-----------------------------------------
-// NAME: Ryan Campbell
-// STUDENT NUMBER: 7874398
-// COURSE: COMP 3430, SECTION: A01
-// INSTRUCTOR: Franklin Bristow
-// ASSIGNMENT: assignment #3
+// Author: Ryan Campbell
 //
 // REMARKS: Implement a Task struct along with a
 // Queue-like structure created out of an array
