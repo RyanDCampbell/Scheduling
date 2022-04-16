@@ -3,7 +3,7 @@
 
 ### How to run
 
-Step 1) Please open a terminal window, and navigate to the folder containing my submission.
+Step 1) Please open a terminal window, and navigate to the folder containing my code.
 
 Step 2) Type "make" into the terminal (without the quotations) and press the enter key.
 
