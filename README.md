@@ -26,7 +26,7 @@ Step 3) Next, type "./scheduling 4 sjf" (without the quotations).  Replace "4" w
 |      | Type 1 |      8057 usec      |     6748 usec     |      19701 usec      |     13084 usec     |
 |      | Type 2 |      33539 usec     |     26985 usec    |      19705 usec      |     18528 usec     |
 |      | Type 3 |      35622 usec     |     28558 usec    |      27834 usec      |     26700 usec     |
-| 8    | Type 0 |      1003 usec      |      563 usec     |       5498 usec      |      2910 usec     |
+| 8    | Type 0 |      1003 usec      |     563 usec     |       5498 usec      |      2910 usec     |
 |      | Type 1 |      4420 usec      |     3199 usec     |       8265 usec      |      3709 usec     |
 |      | Type 2 |      18530 usec     |     12180 usec    |       9115 usec      |      7907 usec     |
 |      | Type 3 |      19839 usec     |     13160 usec    |      13675 usec      |     12837 usec     |
