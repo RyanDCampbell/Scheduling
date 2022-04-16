@@ -10,7 +10,7 @@ Step 2) Type "make" into the terminal (without the quotations) and press the ent
 Step 3) Next, type "./scheduling 4 sjf" (without the quotations).  Replace "4" with the desired number of CPUs to simulate.  Replace "sjf" with the scheduling policy to use (sjf/mlfq). Press enter.
 
 
-###This table had each value computed as the average of 5 runs.
+### This table had each value computed as the average of 5 runs.
 
 | CPUs |  Type  | SJF Turnaround Time | SJF Response Time | MLFQ Turnaround Time | MLFQ Response Time |
 |------|:------:|:-------------------:|-------------------|----------------------|--------------------|
