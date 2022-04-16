@@ -1,5 +1,5 @@
 
-# Assignment 3: Simulating Scheduling
+# Simulating Scheduling
 
 ### How to run
 
@@ -32,18 +32,11 @@ Step 3) Next, type "./scheduling 4 sjf" (without the quotations).  Replace "4" w
 |      | Type 3 |      19839 usec     |     13160 usec    |      13675 usec      |     12837 usec     |
 
 
+Observation 1)
+The difference in response time that I observed is not what I first expected, but after some thinking it makes sense.  At first, I expected MLFQ to outperform SJF. From what I observed this is not this not the case because the SJF policy knows how long each task will take to complete.  This is very unrealistic in the real world, as most times, we don't know how long a process will run. This gives the SJF policy an unfair advantage, as the MLFQ does not have to privilege to know how long each task will take. The MLFQ is a much more complex policy, thus I believe the longer turn around time is due to the overhead of the algorithm.  However the response time of the MLFQ I expected to be much better and surpass SJF, but it doesn't appear to be.  I believe this may be due to a race condition in  my code.
 
-
-
-
-Question: Is the difference in turnaround time and response time for each policy what you expected to see? Why or not?
-
-Answer: The difference in response time that I observed is not what I first expected, but after some thinking it makes sense.  At first, I expected MLFQ to outperform SJF. From what I observed this is not this not the case because the SJF policy knows how long each task will take to complete.  This is very unrealistic in the real world, as most times, we don't know how long a process will run. This gives the SJF policy an unfair advantage, as the MLFQ does not have to privilege to know how long each task will take. The MLFQ is a much more complex policy, thus I believe the longer turn around time is due to the overhead of the algorithm.  However the response time of the MLFQ I expected to be much better and surpass SJF, but it doesn't appear to be.  I believe this may be due to a race condition in  my code.
-
-Question: How does adjusting the number of CPUs in the system affect the turnaround time or response time for tasks? Does it appear to be highly correlated?
-
-Answer: As the numbers of CPUs in the system are increased, turnaround time and response time increase drastically.  The turn around and response time for tasks appears to be highly correlated to the number of CPUs.  This is because then using 1 CPU, there is no parallelization.  When we add additional CPUs, we allow the program to run much quicker due to parallelization. 
-
+Observation 2)
+As the numbers of CPUs in the system are increased, turnaround time and response time increase drastically.  The turn around and response time for tasks appears to be highly correlated to the number of CPUs.  This is because then using 1 CPU, there is no parallelization.  When we add additional CPUs, we allow the program to run much quicker due to parallelization. 
 
 ## Authors
 
