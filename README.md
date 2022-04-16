@@ -47,5 +47,5 @@ Answer: As the numbers of CPUs in the system are increased, turnaround time and 
 
 ## Authors
 
-- Ryan Campbell, Student Number 7874398
+- Ryan Campbell
 
