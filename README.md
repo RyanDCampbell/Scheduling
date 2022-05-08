@@ -7,8 +7,11 @@ Step 1) Please open a terminal window, and navigate to the folder containing my 
 
 Step 2) Type "make" into the terminal (without the quotations) and press the enter key.
 
+     make
+
 Step 3) Next, type "./scheduling 4 sjf" (without the quotations).  Replace "4" with the desired number of CPUs to simulate.  Replace "sjf" with the scheduling policy to use (sjf/mlfq). Press enter.
 
+     ./scheduling 4 sjf
 
 ### This table had each value computed as the average of 5 runs.
 
