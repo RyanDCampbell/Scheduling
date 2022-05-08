@@ -1,4 +1,3 @@
-
 CC		= gcc
 CFLAGS		= -Wall -Wpedantic -Wextra -Werror
 LDFLAGS		= -lpthread
@@ -12,9 +11,3 @@ $(TARGET): $(OBJFILES)
 
 clean:
 	rm -f $(OBJFILES) $(TARGET) *~
-
-#scheduling: scheduling.c
-#	cc scheduling.c -o scheduling -lpthread -lrt -Wall # -Wpedantic -Wextra -Werror
-
-#clean:
-#	rm -f scheduling
